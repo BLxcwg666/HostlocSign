@@ -1,2 +1,2 @@
 # HostlocSign
-一个拿来 Hostloc 自动签到的小工具
+[Node.JS] Hostloc 每日签到脚本
