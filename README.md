@@ -10,6 +10,10 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome-stable_current_amd64.deb -y
 rm google-chrome-stable_current_amd64.deb
 ```
+然后再安装依赖  
+```
+pnpm i
+```
 复制 `.env.example` 为 `.env`  
 然后填上用户名和密码找个 screen 之类的东西执行 `node main.js` 就行了  
 执行后和每天 0 点会执行签到，有需要看着改  
